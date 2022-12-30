@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <title>Form_Login</title>
+</head>
+<body>
+   <section>
+    <div class="container m-5 bg-light">
+        <div class="text-center">
+            <p class="lead fw-bold p-4">Registration Form</p>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-5">
+                <form>
+                    <label for="firstName" class="form-label fw-bold me-3 p-1">First Name</label>
+                    <div class="mb-3 input-group">
+                        <span class="input-group-text">
+                            <i class="bi bi-person-fill"></i>
+                        </span>
+                        <input class="form-control" type="text" id="firstName" placeholder="First Name">
+                    </div>
+                    
+                    <label for="lastName" class="form-label fw-bold me-3 p-1">Last Name</label>
+                    <div class="mb-3 input-group">
+                        <span class="input-group-text">
+                            <i class="bi bi-person-fill"></i>
+                        </span>
+                        <input class="form-control" type="text" id="lastName" placeholder="Last Name">
+                    </div>
+
+                    <label for="office" class="form-label fw-bold me-6 p-1">Department / Office</label>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">
+                            <i class="bi bi-building-fill"></i>
+                        </span>
+                       <select name="office" id="office" class="form-select">
+                        <option value="">Select your Department / Office</option>
+                        <option value="Director">Director</option>
+                        <option value="secretary">Secretary</option>
+                        <option value="secretary">Secretary</option>
+                       </select>
+                    </div>
+
+                    <label for="userName" class="form-label fw-bold me-3 p-1">Username</label>
+                    <div class="mb-3 input-group">
+                        <span class="input-group-text">
+                            <i class="bi bi-person-fill"></i>
+                        </span>
+                        <input type="text" id="userName" class="form-control" placeholder="Username">
+                    </div>
+
+                    <label for="password" class="form-label fw-bold me-3 p-1">Password</label>
+                    <div class="mb-3 input-group">
+                        <span class="input-group-text">
+                            <i class="bi bi-person-fill"></i>
+                        </span>
+                        <input class="form-control" type="password" id="password" placeholder="Password">
+                    </div>
+
+                    <label for="confirm-password" class="form-label fw-bold me-3 p-1">Confirm Password</label>
+                    <div class="mb-3 input-group">
+                        <span class="input-group-text">
+                            <i class="bi bi-person-fill"></i>
+                        </span>
+                        <input class="form-control" type="password" id="password" placeholder="Password">
+                    </div>
+
+                    <label for="email" class="form-label fw-bold me-3 p-1">E-Mail</label>
+                    <div class="mb-3 input-group">
+                        <span class="input-group-text">
+                            <i class="bi bi-envelope-fill"></i>
+                        </span>
+                        <input class="form-control" type="email" id="email" placeholder="E-Mail">
+                    </div>
+
+                    <label for="contact" class="form-label fw-bold me-3 p-1">Contact Me</label>
+                    <div class="mb-3 input-group"> 
+                        <span class="input-group-text">
+                            <i class="bi bi-telephone-fill"></i>
+                        </span>
+                        <input class="form-control" type="phone" id="contact" placeholder="GSM">
+                    </div>
+
+                    <div class=" my-5 text-center">
+                        <button type="submit" class="btn-primary">Submit</button>
+                    </div>
+
+                   
+                </form>
+               
+            </div>
+        </div>
+    </div>
+   </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
